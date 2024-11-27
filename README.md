@@ -10,5 +10,5 @@ This repository contains the code and data used for analyzing and visualizing pr
 
 
 ### **Data source and column explanation  
-The dataset is from UCI machine learning repository and can be accessed here[https://archive-beta.ics.uci.edu/ml/datasets?name=Productivity%20Prediction%20of%20Garment%20Employees]. We have to ensure that the dataset is placed in the root folder of this project with the correct name of the file of the dataset.  
+The dataset is from UCI machine learning repository and can be accessed [here](https://archive.ics.uci.edu/dataset/597/productivity+prediction+of+garment+employees). We have to ensure that the dataset is placed in the root folder of this project with the correct name of the file of the dataset.  
 
