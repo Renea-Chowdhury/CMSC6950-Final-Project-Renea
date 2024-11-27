@@ -56,7 +56,7 @@ Place the dataset *garments_worker_productivity.csv* in the repository folder. T
 `bash`  
 `./garments_worker_productivity.csv`  
 
-OR
+OR  
 Download the dataset ***garments_worker_productivity.csv***  
 
 ## **3. Run the Main Analysis Script**  
@@ -65,11 +65,23 @@ Run the script with:
 `bash`  
 `python main.py`
 
-OR
+OR  
 Run the file *project-Cmcs_final.ipynb* after ensuring the correct path of *garments_worker_productivity.csv* in your device   
 
 ## **4. Reproducing Figures**  
 It will generate some bar plots, histograms and line graphs  
 
+# **Tests**  
+The script includes basic tests to validate the dataset and calculations:  
+    • Column Name Test: Ensures critical columns like team and actual_productivity are present.
+    • Data Type Test: Validates that key columns have numeric data types.
+    • Metric Calculation Test: Verifies the correct computation of the achievement_rate.  
+
+*Run the tests automatically by executing:*  
+`bash`
+`python main.py`
+Test results will appear.  
+Or  
+You can download the file *Test_garments_worker_productivity.ipynb* and run the file along with the *project-Cmcs_final.ipynb*  
 
 
