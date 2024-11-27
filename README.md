@@ -2,11 +2,11 @@
 ## **Garments Worker Productivity**    
 This repository contains the code and data used for analyzing and visualizing productivity in a garments factory. The project aims to explore relationships between various factors like team performance, productivity, and workforce distribution.  
 ### **Table of Contents**  
-    1.	Data source and column explanation
-    2.	Python Packages
-    3.	Steps to Reproduce Figures
-    4.	Generated Figures
-    5.	Tests  
+    1. Data source and column explanation
+    2. Python Packages
+    3. Steps to Reproduce Figures
+    4. Generated Figures
+    5. Tests  
 
 
 ### **Data source and column explanation**  
@@ -38,6 +38,38 @@ The dataset is from UCI machine learning repository and can be accessed [here](h
 **Install these dependencies using the command:**  
 `bash`  
 `pip install pandas numpy matplotlib seaborn`  
+
+# **Steps to Reproduce Figures**  
+**Follow these steps to generate the visualizations:**  
+
+## **1. Clone the Repository**  
+Download or clone this repository:
+`bash`  
+`git clone [https://github.com/Renea-Chowdhury/CMSC6950-Final-Project-Renea.git]`  
+`cd CMSC6950-Final-Project-Renea`  
+
+OR 
+Download the file ***project-Cmcs_final.ipynb***  
+
+## **2. Ensure Dataset Availability**  
+Place the dataset *garments_worker_productivity.csv* in the repository folder. The expected file path is:  
+`bash`  
+`./garments_worker_productivity.csv`  
+
+OR
+Download the dataset ***garments_worker_productivity.csv***  
+
+## **3. Run the Main Analysis Script**  
+The main script performs data loading, cleaning, analysis, and visualization.
+Run the script with:
+`bash`  
+`python main.py`
+
+OR
+Run the file *project-Cmcs_final.ipynb* after ensuring the correct path of *garments_worker_productivity.csv* in your device   
+
+## **4. Reproducing Figures**  
+It will generate some bar plots, histograms and line graphs  
 
 
 
